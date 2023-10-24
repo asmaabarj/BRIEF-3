@@ -69,12 +69,15 @@
     width: 250px;
     display: none;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
+    align-items: flex-start;
+    justify-content: flex-start;
     background-color: #000000ab;
-    z-index: 3;
+    z-index: 999;
     line-height: 3;
   }
+  .menu-botton{
+    display: none;
+}
 
 
   /*---------------------------------------------- footer ----------------------------------*/
@@ -543,7 +546,7 @@ font-family: 'Red Rose';
     .Submit-button:hover {
         color: rgb(255, 255, 255);
         background-color: rgba(0, 0, 0, 0.889);
-        transition-duration: 80ms;
+
     }
     .horaire{
         height: 40vh;
@@ -571,9 +574,7 @@ font-family: 'Red Rose';
 
 
 
-.menu-botton{
-    display: none;
-}
+
 
 
     @media (max-width:767px) {
@@ -620,7 +621,6 @@ font-family: 'Red Rose';
         
 
 
-        /* ----------------------atelier-------------------------- */
         
         
     }
