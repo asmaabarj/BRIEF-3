@@ -1,0 +1,626 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Irish+Grover&family=Lora:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,200;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Pridi:wght@200&family=Red+Rose:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Irish+Grover&family=Lora:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;1,300&family=Playfair+Display&family=Poppins:ital,wght@0,200;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&family=Pridi:wght@200&family=Red+Rose:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .active:hover{
+    color:#2E86C4;
+  }
+.active1{
+    color:#2E86C4;
+}
+ .container{
+ 
+   margin: auto;
+   width: 90%;
+   height: 100%;
+ }
+/* -----------------------------------------navbar--------------------------------------------- */
+  
+  nav{ 
+    height: 4rem;
+    background-color: #000000;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    filter: drop-shadow(0px 6px 2px #020100a9);
+  }
+  nav ul{
+
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    list-style:none;
+    height: 4rem;
+
+  }
+  nav img{
+    height: 4rem;
+    width: 8rem;
+  }
+  nav li{
+    color: #ffffff;
+    padding-left: 2em;
+    font-family: 'Poppins', sans-serif;
+   
+   
+  }
+  nav li:first-child{
+    margin-right: auto;
+    padding-left: 0;
+    
+  }
+  /* -------burgermenu------- */
+  .sidebar{
+    position:fixed;
+    top: 0;
+    right: 0;
+    min-height: 300vh;
+    width: 250px;
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    background-color: #000000ab;
+    z-index: 3;
+    line-height: 3;
+  }
+
+
+  /*---------------------------------------------- footer ----------------------------------*/
+
+
+
+
+
+
+footer{
+    height: 50vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    font-family: 'DM Sans', sans-serif;
+
+}
+.footercontent{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.footercontent p{
+    margin-bottom: 20px;
+    color: #DBDFD0;
+}
+.footercontent img{
+    height: 100px;
+    width: 250px;
+    margin-bottom: 10px;
+
+}
+.footerpages{
+    width: 30%;
+}
+.footerpages > p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.footermenus{
+    width: 27vw;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menufoter a{
+    line-height: 2;
+    color:#DBDFD0 ;
+}
+.rights{
+    color: #DBDFD0;
+    margin-bottom: 10px;
+}
+
+  
+  /* ----------------------------------------acceuil------------------------------------------ */
+
+  /* section1 */
+  .section1{
+   background-image: url(images/image1\ 1.png);
+   background-size:100% 100%;
+   height: 100vh;
+
+  }
+  
+
+   .content{
+    height:77% ;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+justify-content: end;
+  }
+
+
+  .content h1{
+     font-size:60px;
+line-height: 2;
+font-family: 'pridi';
+font-weight: 900;
+  }
+
+.content h2{
+    font-size: 48px;
+ font-family: 'Red Rose';
+}
+
+.content p{
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight:300;
+    
+}
+
+
+.voirPlus button{
+    background-color: #003F51;
+    border: none;
+    height:60px;
+    width: 160px;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family:'poppins';
+    font-weight: bold;
+    font-size: 15px;
+    filter: drop-shadow(5px 6px 2px #000000a9);
+    letter-spacing: 2px;
+
+   
+    
+}
+.voirPlus{
+    height: 20%;
+    display: flex;
+    align-items: end;
+}
+
+
+
+
+/*section2 */
+.section2{
+    background-color:#F1F1F1;
+    height: 100vh;
+    
+
+}
+.section2 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #003F51;
+    height: 25%;
+    align-items: center;
+    font-family: 'Red Rose';
+
+   
+}
+
+.artiste{
+    background-color: #ffffff;
+    border: 2px #003F51 solid;
+    border-radius: 15px;
+    width: 20%;
+    padding: 1rem;
+    filter:drop-shadow(-2px 5px 17px #583115a9);
+    color: #003F51;
+    height: 20rem;
+}
+.artiste p{
+    color: #000000;
+}
+.artiste img{
+    width:100%;
+    
+    
+}
+.class1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* section3 */
+
+.section3{
+    background-color:#F1F1F1;
+    height: 90VH;
+}
+.section3 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #003F51;
+    height: 25%;
+    align-items: center;
+    font-family: 'Red Rose';
+
+}
+.nosProduits img{
+    width: 18rem;
+    height: 18rem;
+    border: 2px solid #003F51;
+    border-radius: 15px;
+
+   
+}
+.nosProduits{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 62%;
+    filter: drop-shadow(0px 6px 2px #000000a9);
+   
+}
+.btn{
+ display: flex;
+ justify-content: center;
+ ALIGN-ITEMS: START;
+
+}
+/* section4 */
+.section4{
+    background-color:#F1F1F1;
+    height: 80vh;
+    width: auto;
+}
+.aboutUs{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.aboutUs img{
+    height: 51vh;
+    width : 35vw;
+    
+}
+.ecriture{
+    height: 60vh;
+    width : 42vw;
+    align-items: start;
+}
+.ecriture h1{
+    color: #003F51;
+    font-size: 35px;
+    line-height: 2.5;
+    font-family: 'Red Rose';
+}
+.ecriture p{
+    
+    font-size: 22px;
+    
+
+}
+/* FaQ */
+.FaQBack {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F1F1F1;
+}
+.FAQtitle{
+    display: flex;
+    align-items: start;
+    height: 20%;
+    color: #003F51;
+    font-family: 'Red Rose';
+}
+
+.question-button {
+    height: 13vh;
+    width: 65%;
+   border-radius: 20px;
+    cursor: pointer;
+    border-color: #003F51;
+
+    margin-bottom: 10px;
+}
+
+
+.answer {
+    display: none;
+    width: 60%;
+}
+.answer li{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+/* --------------------------------------galerie--------------------------------------- */
+    
+/* section1 */
+.section2-1{
+    background-image: url(images/WhatsApp\ Image\ 2023-10-18\ at\ 08.01\ 1.png);
+    background-size: cover;
+    height: 90vh;
+}
+.contentX{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    height: 70vh;
+    width: 67vw;
+    font-size: 3rem;
+    font-family: 'Red Rose';
+}
+span{
+    font-weight: 700;
+}
+.voirGalerie{
+    display: flex;
+    align-items: start;
+}
+
+/* section2 */
+.section2-2{
+    background-color:#F1F1F1;
+    height: 90vh;
+}
+.content1 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #003F51;
+    height: 19vh;
+    align-items: end;
+    font-family: 'Red Rose';
+
+}
+.content1 p{
+    height: 70vh;
+    color: #000000;
+    display: flex;
+    align-items: center;
+font-family: 'poppins';
+font-weight: 300;
+font-size: 28px;
+
+}
+
+/* section3 */
+.section2-3{
+    background-color:#F1F1F1;
+    height: 30vh;
+    
+}
+.content2{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-size: 2rem;
+        color: #003F51;
+        font-family: 'Red Rose';
+     
+       
+    }
+/*section4*/
+.section2-4{
+    background-color:#F1F1F1;
+    height: max-content;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+   height: 64vh;
+
+}
+.images video{
+    border-radius: 15px;
+}
+.images img {
+    height: 18rem;
+    width: 18rem;
+    filter:drop-shadow(0px 6px 2px #583115a9);
+    
+}
+.images video:hover{
+    transform: scale(1.3);
+  
+}
+.images img:hover {
+    transform: scale(1.3);
+}
+/* -----------------------------------------atelier------------------------------------------------ */
+.section3-1{
+    background-image: url(images/tamegroute-poterie-maroc-m-2_1024x1024\ 1.png);
+    background-size: 100% 100%;
+    height:230vh;
+}
+.atelierWeek{
+    height:90vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+.atelierWeek h1{
+line-height: 3;
+font-size: 3rem;
+font-family: 'Red Rose';
+}
+.atelierWeek p{
+
+    font-size:30px;
+   
+    }
+    .formulaire{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .InputsBack{
+        width: 40vw;
+        height: 80vh;
+        background-color: #ffffff54;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        filter: drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.088));
+    }
+    .contact-inputs{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 600;
+    
+    
+    }
+    .contact-inputs button{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    input[type=text],
+    
+    input[type=email],
+    input[type=tel] {
+    
+        padding: 18px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        border-radius: 7px;
+    
+    }
+    
+   
+    
+    .Submit-button {
+        background-color: #003F51;
+        border: none;
+        height:3rem;
+        width: 8rem;
+        border-radius: 10px;
+        color: #ffffff;
+        cursor: pointer;
+        font-family:'poppins';
+        font-weight: bold;
+        font-size: 15px;
+        filter: drop-shadow(5px 6px 2px #000000a9);
+        letter-spacing: 2px;
+        display: flex;
+        align-items: center;
+    
+    
+    }
+    
+    .Submit-button:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.889);
+        transition-duration: 80ms;
+    }
+    .horaire{
+        height: 40vh;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #ffffff;
+        width: 100%;
+
+    }
+    .horaireTitre{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .horaireTemps{
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 25%;
+        font-size: 20px;
+    }
+
+
+
+
+.menu-botton{
+    display: none;
+}
+
+
+    @media (max-width:767px) {
+        .hidenMobile{
+            display: none;
+        }
+        .menu-botton{
+            display: block;
+        }
+        .class1{
+            display:flex;
+           flex-direction: column;
+           justify-content: center;
+        }
+        .artiste{
+            background-color: #ffffff;
+            border: 2px #003F51 solid;
+            border-radius: 15px;
+            width: 50%;
+            padding: 1rem;
+            filter:drop-shadow(-2px 5px 17px #583115a9);
+            color: #003F51;
+            height:30rem;
+           
+        }
+        .section2{
+            background-color:#F1F1F1;
+            height: 200vh;
+            
+        
+        }
+        .images{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+        .images img {
+            height: 30rem;
+            width:  30rem;
+            filter:drop-shadow(0px 6px 2px #583115a9);  
+      
+        }
+        
+
+
+        /* ----------------------atelier-------------------------- */
+        
+        
+    }
