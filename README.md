@@ -1,5 +1,5 @@
 # MUCEM - Poterie Siteweb
-
+MUCEM est un site web statique professionnellement conçu pour la poterie safiote, comprenant trois pages distinctes :
 la Page d'accueil : mettre en avant les expositions en cours et présente en vitrine les artistes et les produits artisanals.il contient également une section FAQ pour répondre aux questions fréquentes des visiteurs.
 
 La page Galerie: permettre aux visiteurs de parcourir les œuvres en images et en vidéos.
