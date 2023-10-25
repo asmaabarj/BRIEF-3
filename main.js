@@ -28,7 +28,7 @@ function validerFormulaire() {
   var email = document.getElementById("email").value;
   var telephone = document.getElementById("telephone").value;
 
-  // Expressions régulières pour la validation
+
   var regexNomPrenom = /^[A-Za-zÀ-ÖØ-öø-ÿ\s-]{2,}$/;
   var regexCIN = /^[A-Za-z]{0,2}\d+$/;
   var regexEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
@@ -59,7 +59,6 @@ function validerFormulaire() {
     return ;
   }
 
-  // Si toutes les validations passent, le formulaire est soumis
   alert("Inscription réussie !");
   return ;
 }
